@@ -1,0 +1,14 @@
+pkgbase = mts-link
+	pkgdesc = Services for business communications and collaboration. Meetings, webinars, corporate messenger, online whiteboards and training courses in one ecosystem.
+	pkgver = 1.2.6
+	pkgrel = 1
+	url = https://mts-link.ru/
+	arch = x86_64
+	license = custom:mts-link
+	provides = mts-link
+	conflicts = mts-link
+	options = !strip
+	source = mts-link-1.2.6.deb::https://apps.webinar.ru/desktop/latest/mts-link-desktop.deb
+	sha256sums = e3284c0d3e97c224290d2579fe94c42ae46b53faf1155decbf0d7efbd8552020
+
+pkgname = mts-link
